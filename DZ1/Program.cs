@@ -13,4 +13,11 @@ if (a > b)
 {
     Console.Write($"Число {a} больше чем число {b}");
 }
-else Console.Write($"Число {b} больше чем число {a}");
+if (a < b)
+{
+    Console.Write($"Число {b} больше чем число {a}");
+}
+if (a == b)
+{
+    Console.Write($"Число {a} равно числу {b}");
+}
