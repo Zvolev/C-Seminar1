@@ -2,12 +2,10 @@
 // какое число большее, а какое меньше
 Console.Clear();
 Console.Write("Введите первое число ");
-string inputStrihga = Console.ReadLine();
-int a = Convert.ToInt32(inputStrihga);
+int a = int.Parse(Console.ReadLine() ?? "0");
 
 Console.Write("Введите второе число ");
-string inputStrihgb = Console.ReadLine();
-int b = Convert.ToInt32(inputStrihgb);
+int b = int.Parse(Console.ReadLine() ?? "0");
 
 if (a > b)
 {

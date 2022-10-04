@@ -3,9 +3,8 @@
 
 Console.Clear();
 
-Console.Write("Введите первое число ");
-string inputStrihga = Console.ReadLine();
-int a = Convert.ToInt32(inputStrihga);
+Console.Write("Введите число ");
+int a = int.Parse(Console.ReadLine() ?? "0");
 
 if (a % 2 == 0 )
 {
